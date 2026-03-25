@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     char* ptrArray[2];
     char** ptrptr;
     int i;
@@ -39,5 +39,5 @@ void main() {
     for (i = 0; i < 5; i++)
         printf("%c", *((*ptrptr) + 1 + i));
 
-    getchar();
+    return 0;
 }
