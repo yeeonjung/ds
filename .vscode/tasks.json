@@ -9,6 +9,7 @@
                 "-g",
                 "${file}",
                 "listS.cpp",
+                "LinkedList.h",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
