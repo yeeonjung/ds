@@ -10,13 +10,6 @@ typedef struct {
     int value;
 } term;
 
-static inline size_t size(const term (&)[1]) { return 1; } // placeholder to satisfy overloads
-
-template <typename T, size_t N>
-constexpr size_t size(const T (&)[N]) noexcept {
-    return N;
-}
-
 void smTranspose(term a[], term b[]) {
     int i, j;
     int rows = a[0].row;

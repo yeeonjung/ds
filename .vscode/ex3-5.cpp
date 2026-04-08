@@ -5,7 +5,7 @@ void smTranspose(term a[], term b[]);
 
 int main(void) {
     term a[] = { {8,7,10}, {0,2,2}, {0,6,12}, {1,4,7}, {2,0,23}, {3,3,31}, {4,1,14}, {4,5,25}, {5,6,6}, {6,0,52}, {7,4,11} };
-    term b[size(a) / sizeof(a[0])];
+    term b[sizeof(a) / sizeof(a[0])];
     int i;
 
     printf("<<희소 행렬 a>>");
