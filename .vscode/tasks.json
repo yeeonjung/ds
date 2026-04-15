@@ -10,6 +10,7 @@
                 "${file}",
                 "listS.cpp",
                 "LinkedList.h",
+                "LinkedPoly.h",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
