@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "LinkedPoly.h"
 
-
+ 
 ListHead* createLinkedList(void) {
 	ListHead* L;
 	L = (ListHead*)malloc(sizeof(ListHead));

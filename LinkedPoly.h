@@ -1,7 +1,7 @@
 #pragma once
 
 float coef;
-typedef struct Listnode {
+typedef struct ListNode {
     float coef;
     int expo;
     struct ListNode* link;
@@ -11,7 +11,7 @@ typedef struct ListHead {
     ListNode* head;
 } ListHead;
 
-ListHead createLinkedList(void);
+ListHead* createLinkedList(void);
 void appendTerm(ListHead* L, float coef, int expo);
 void addPoly(ListHead* A, ListHead* B, ListHead* C);
 void printPoly(ListHead* L);
