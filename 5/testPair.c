@@ -27,8 +27,9 @@ int testPair(char* exp){
                (symbol == ']' && open_pair != '[') ||
                (symbol == '}' && open_pair != '{'))
                 return 0;
+            else break;
         }
     }
-    if(!isStackEmpty()) return 0;
-    return 1;
+    if(top == NULL) return 1;
+    else return 0;
 }

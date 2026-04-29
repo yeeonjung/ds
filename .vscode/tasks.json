@@ -12,6 +12,8 @@
                 "LinkedList.h",
                 "LinkedPoly.h",
                 "stackL.h",
+                "queueS.c",
+                "queueS.h",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
