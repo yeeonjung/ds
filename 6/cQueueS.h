@@ -1,5 +1,5 @@
 #pragma once
-define cQ_SIZE 4
+#define cQ_SIZE 4
 
 typedef char element;
 
