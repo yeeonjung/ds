@@ -14,6 +14,7 @@
                 "stackL.h",
                 "queueS.c",
                 "queueS.h",
+                "node.h",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
