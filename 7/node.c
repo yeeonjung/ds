@@ -5,6 +5,6 @@ void displayInorder(treeNode* root){
     if (root){
         displayInorder(root->left);
         printf("%c_", root->key);
-        displatInorder(root->right);
+        displayInorder(root->right);
     }
 }

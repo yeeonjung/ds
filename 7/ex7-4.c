@@ -6,7 +6,7 @@ void menu(void);
 
 int main(void){
     treeNode* root = NULL;
-    treeNode* foundedeNode = NULL;
+    treeNode* foundedNode = NULL;
     char choice, key;
 
     root = insertBSTNode(root, 'G');
@@ -53,7 +53,7 @@ int main(void){
 
     void menu(void){
         printf("\n*------------------*");
-        printf("\n]t1 : 트리 출력");
+        printf("\n\t1 : 트리 출력");
         printf("\n\t2 : 문자 삽입");
         printf("\n\t3 : 문자 삭제");
         printf("\n\t4 : 문자 검색");

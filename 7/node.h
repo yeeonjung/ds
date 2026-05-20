@@ -7,4 +7,4 @@ typedef struct treeNode{
     struct treeNode* right;
 } treeNode;
 
-void sidplayInorder(treeNode* root);
+void displayInorder(treeNode* root);

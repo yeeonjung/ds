@@ -8,7 +8,7 @@ treeNode* searchBST(treeNode* root, element x){
     p = root;
     while (p != NULL){
         if (x < p->key) p = p->left;
-        else if (x == p->key) retuen p;
+        else if (x == p->key) return p;
         else p = p->right;
     }
     printf("\n 찾는 키가 없습니다. ");
@@ -20,8 +20,8 @@ treeNode* insertBSTNode(treeNode* p, element x){
     if ( p== NULL){
         newNode = (treeNode*)malloc(sizeof(treeNode));
         newNode->key = x;
-        newNode->left = NULL:
-        newNode->right = NULL:
+        newNode->left = NULL;
+        newNode->right = NULL;
         return newNode;
     }
     else if (x < p->key) p->left = insertBSTNode(p->left, x);
