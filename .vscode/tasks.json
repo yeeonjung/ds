@@ -15,6 +15,7 @@
                 "queueS.c",
                 "queueS.h",
                 "node.h",
+                "LinkedQueue.h",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

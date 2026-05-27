@@ -1,5 +1,5 @@
 #pragma once
-typedef char element;
+typedef int element;
 
 typedef struct QNode{
     element data;
