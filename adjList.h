@@ -7,9 +7,13 @@ typedef struct graphNode{
 } graphNode;
 
 
+#define TRUE 1
+#define FALSE 0
+
 typedef struct graphType{
     int n;
     graphNode* adjList_H[MAX_VERTEX];
+    int visited[MAX_VERTEX];
 } graphType;
 
 void createGraph(graphType* g);

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "adjList.h"
 
 int main(void){

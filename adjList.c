@@ -5,8 +5,10 @@
 void createGraph(graphType* g){
     int v;
     g->n = 0;
-    for(v = 0; v < MAX_VERTEX; v++)
+    for(v = 0; v < MAX_VERTEX; v++){
         g->adjList_H[v] = NULL;
+        g->visited[v] = FALSE;
+    }
 }
 
 void insertVertex(graphType* g, int v){
